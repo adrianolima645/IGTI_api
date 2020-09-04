@@ -6,7 +6,7 @@ const Student = db.studentModel;
 const create = async (req, res) => {
   const student = new Student({
     name: req.body.name,
-    subject: reqodyy.subject,
+    subject: req.body.subject,
     type: res.body.type,
     value: req.body.value,
   });
