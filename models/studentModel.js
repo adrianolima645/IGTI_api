@@ -19,6 +19,6 @@ export default (mongoose) => {
     },
   });
 
-  const student = mongoose.model('student', schema, 'students');
-  return student;
+  const studentModel = mongoose.model('student', schema, 'students');
+  return studentModel;
 };
