@@ -1,7 +1,7 @@
 import { db } from '../models/index.js';
 //import { logger } from '../config/logger.js';
 
-const Student = db.studentModel;
+const Student = db.student;
 
 const create = async (req, res) => {
   const student = new Student({

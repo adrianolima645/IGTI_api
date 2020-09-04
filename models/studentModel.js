@@ -18,6 +18,13 @@ export default (mongoose) => {
       min: 0,
     },
   });
+  schema.method('toJSON', function () {
+    const { __v, _id, ...object } = this.toObject();
+
+    object.id = _id;
+
+    return object;
+  });
 
   const studentModel = mongoose.model('student', schema, 'students');
   return studentModel;
