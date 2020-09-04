@@ -1,5 +1,5 @@
 import express from 'express';
-import controller from '../controller/gradeController.js';
+import controller from '../controllers/gradeController.js';
 
 const app = express();
 

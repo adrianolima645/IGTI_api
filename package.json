@@ -19,7 +19,7 @@
     "nodemon": "^2.0.4",
     "serve": "^11.3.2",
     "winston": "^3.3.3",
-    "winston-mongodb": "^5.0.1"
+    "winston-mongodb": "^5.0.3"
   },
   "type": "module"
 }
