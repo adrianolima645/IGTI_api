@@ -7,7 +7,7 @@ const create = async (req, res) => {
   const student = new Student({
     name: req.body.name,
     subject: req.body.subject,
-    type: res.body.type,
+    type: req.body.type,
     value: req.body.value,
   });
 
