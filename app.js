@@ -10,7 +10,9 @@ import { db } from './models/index.js';
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
+    console.log('Conectado com sucesso!');
   } catch (error) {
+    console.log('Erro ao conectar ' + error);
     process.exit();
   }
 })();
